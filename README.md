@@ -128,7 +128,7 @@ NAME    STATUS     ROLES    AGE   VERSION
 k8s-m   NotReady   master   13m   v1.18.4
 dmi@k8s-m:~$ 
 
-14. Deploy a Pod Network through the master node
+13. Deploy a Pod Network through the master node
 
 A pod network is a medium of communication between the nodes of a network. We are deploying a Flannel pod network on our cluster through the following command. We run it on master node:
 
@@ -147,7 +147,7 @@ daemonset.apps/kube-flannel-ds-ppc64le created
 daemonset.apps/kube-flannel-ds-s390x created
 dmi@k8s-m:~$ 
 
-15. Join Kubernetes worker nodes:
+14. Join Kubernetes worker nodes:
 
 Run kubeadm join
 
@@ -176,7 +176,7 @@ Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
 root@k8s-w3:/home/dmi# 
 
 
-16. Use the following commands in order to view the status:
+15. Use the following commands in order to view the status:
 
 dmi@k8s-m:~$ kubectl get pods --all-namespaces
 NAMESPACE     NAME                            READY   STATUS    RESTARTS   AGE
