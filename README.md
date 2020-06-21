@@ -1,5 +1,6 @@
 Install Kubernetes 3 worker nodes and master step-by-step
 
+```
 1. Install 4 Ubuntu machines using Virtual Box. 
 
 One machine will be Kubernetes master node and 3 others will be Kubernetes worker nodes. 
@@ -203,6 +204,6 @@ k8s-w2   Ready    <none>   11m   v1.18.4
 k8s-w3   Ready    <none>   11m   v1.18.4
 dmi@k8s-m:~$ 
 
-
+```
 
 
